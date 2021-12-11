@@ -9,7 +9,6 @@ func _physics_process(_delta):
 		respawning = true
 		
 
-
 func _on_Respawning_timeout():
 	var player = Player.instance()
 	player.position = Vector2(512,300)
