@@ -29,7 +29,7 @@ func get_input():
 		rotation_degrees += rotation_speed
 	if Input.is_action_just_pressed("shoot"):
 		var bullet = Bullet.instance()
-		bullet.position = position + Vector2(0,-40).rotated(rotation)
+		bullet.position = position + Vector2(0,-2).rotated(rotation)
 		bullet.rotation = rotation
 		add_child(bullet)
 	return toReturn.rotated(rotation)
