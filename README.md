@@ -1,5 +1,5 @@
 # Project Name
-Space Shooter game made in Godot for Project 2, originally due 9/25/21
+Space Shooter game made in Godot for Project 2, originally due 9/25/21 for MSCH-C220.
 
 ## Implementation
 Built using Godot 3.3.3
