@@ -23,9 +23,12 @@ __meta__ = {
 margin_right = 1024.0
 margin_bottom = 300.0
 custom_fonts/font = SubResource( 1 )
-text = "Welcome!"
+text = "Ready to play?"
 align = 1
 valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Play" type="Button" parent="."]
 margin_left = 412.0
